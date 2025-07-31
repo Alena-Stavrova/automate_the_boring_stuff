@@ -14,7 +14,7 @@ def list_stringinator(list):
         for i in range(len(list)-1):
             print(str(list[i]), end = ', ')
         print('and ' + str(list[-1]))
-    else:
-        print(' , and ')
+    else: #Not sure how an empty list should work, this is my best guess
+        print(' , and ') 
 
 list_stringinator(blabla)
